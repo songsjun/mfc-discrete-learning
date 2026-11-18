@@ -1,0 +1,62 @@
+{
+  "accessed_at_utc": "2026-11-17 21:34:01 UTC",
+  "course_identity": {
+    "institution": "University of Stuttgart",
+    "institute": "Institute of Information Security",
+    "title": "Mathematical Foundations of (Post-Quantum) Cryptography",
+    "abbreviation": "MFC",
+    "level": "Master"
+  },
+  "sources": [
+    {
+      "url": "https://www.sec.uni-stuttgart.de/teaching/mathematical-foundations-of-post-quantum-cryptography/",
+      "method": "Public page read with web tool",
+      "locators": ["Title and introduction", "Self-contained treatment and undergraduate background paragraph", "Exam section"],
+      "supported_facts_authored": [
+        "课程介绍列出代数、代数数论、代数几何、概率和调和分析相关方向。",
+        "说明相关数学理论会自足讲授，但以计算机或数学本科前四学期的背景为起点。",
+        "作业累计至少50%分数是参加期末考试的条件。"
+      ]
+    },
+    {
+      "url": "https://www.sec.uni-stuttgart.de/teaching/",
+      "method": "Public page read with web tool",
+      "locator": "2026/2027 Winter Term",
+      "supported_fact_authored": "当前冬季教学目录列出MFC，并链接到当前ILIAS课程入口。"
+    },
+    {
+      "url": "https://ilias3.uni-stuttgart.de/ilias.php?baseClass=ilrepositorygui&cmdClass=ilobjcoursegui&cmdNode=xi%3Amd&item_ref_id=0&ref_id=4553285",
+      "method": "Public information page read with approved curl HTTP GET; web tool had a cache miss",
+      "locators": ["Course title and Winter 2026/27 breadcrumb", "License metadata", "Admission procedure"],
+      "supported_facts_authored": [
+        "可读取课名、学期等公开课程元数据。",
+        "入口许可元数据为All rights reserved。",
+        "加入课程需要提出申请并由课程方批准。"
+      ],
+      "not_observed": ["Lecture notes", "Exercise sheets", "Week-by-week syllabus"]
+    },
+    {
+      "url": "https://www.f05.uni-stuttgart.de/informatik/studierende/master/informatik/po-2019/",
+      "method": "Independent read-only source research",
+      "locator": "Wahl-Pflichtveranstaltungen and TMG-INF list",
+      "supported_fact_authored": "MFC列入硕士Informatik PO2019的TMG-INF课程目录。"
+    }
+  ],
+  "design_inferences": [
+    "保持18节离散核心，服务证明和抽象语言的第一阶段准备。",
+    "计数保持有限范围；模逆和有限概率仅作两张可选短卡。",
+    "线性代数、分析和完整概率的具体准备另查，不扩大本站为全部硕士课先修。"
+  ],
+  "unknowns": [
+    "Official module-entry formal enrollment prerequisites",
+    "Exact interpretation of the first-four-semesters background at the skill level",
+    "Target-term lecture order, depth and actual exercise demands",
+    "Student proficiency and measured learning workload"
+  ],
+  "scope_limits": [
+    "No login, course-joining request or messages to course staff",
+    "No website implementation or deployment",
+    "No inference that all listed mathematical topics are prerequisites or taught in full every term",
+    "No inference that MFC has no prerequisites because its formal module entry was not obtained"
+  ]
+}

@@ -1,0 +1,4 @@
+runtime external requests: false
+local script: true
+local styles: true
+external script/style dependency: false

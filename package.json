@@ -1,0 +1,13 @@
+{
+  "name": "mfc-discrete-learning",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "MFC 第一阶段离散数学学习室，本地版本",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "engines": {"node": ">=22"}
+}

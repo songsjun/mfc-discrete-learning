@@ -1,0 +1,5 @@
+
+> mfc-discrete-learning@0.1.0 check
+> node scripts/check.mjs
+
+语法与入口检查通过：11 个 JavaScript 文件。

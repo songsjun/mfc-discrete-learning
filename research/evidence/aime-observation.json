@@ -1,0 +1,92 @@
+{
+  "accessed_at_utc": "2026-11-17T21:19:36.021941+00:00",
+  "method": "Read-only HTTP GET of public homepage and public curriculum; browser host unavailable; no session, student records, or write endpoint accessed.",
+  "sources": [
+    {
+      "url": "https://aime.kapy.ca/",
+      "sha256": "ab8494869ea678819c888663925f51274fd56640cc4fd3f335c095b2b6ffa25c"
+    },
+    {
+      "url": "https://aime.kapy.ca/course-tree.js?v=0.7.0",
+      "sha256": "d59c2d8a0b61e1cb378bc111a935e65062876fdd3f45a25942c0513b80d647df"
+    },
+    {
+      "url": "https://aime.kapy.ca/api/catalog?lang=zh",
+      "sha256": "23884817930f2b53c9ebb78f0df2cf4f5c5c06659df7bd6328ac92d6ab07382f"
+    },
+    {
+      "url": "https://aime.kapy.ca/api/course?unit=U01&lang=zh",
+      "sha256": "1c69d4531b4cc58c419da50ade97bcba8ec9204456a0ff558033c231c7855d11"
+    }
+  ],
+  "catalog_unit_count": 14,
+  "sample_unit": {
+    "id": "U01",
+    "version": "web-0.2.0",
+    "content_fingerprint": "0321c248eb275a66b8b8207adbd46c1b4b18cbf16dc670f6ee1d10f40d03eaa0",
+    "prerequisite_unit_ids": "",
+    "lesson_count": 6,
+    "task_count": 75
+  },
+  "sample_lesson": {
+    "id": "L1",
+    "field_names": [
+      "id",
+      "title",
+      "summary",
+      "goals",
+      "intuition",
+      "principles",
+      "signals",
+      "misconceptions",
+      "recall",
+      "figure",
+      "figure_alt",
+      "task_ids",
+      "core_topic_ids",
+      "transfer_limit",
+      "practice_route",
+      "verification_note",
+      "example"
+    ],
+    "example_step_field_names": [
+      "action",
+      "why"
+    ]
+  },
+  "task_metadata_field_names": [
+    "id",
+    "lesson_id",
+    "kind",
+    "prompt",
+    "opening",
+    "topic_ids",
+    "difficulty",
+    "difficulty_note",
+    "usage",
+    "source_kind",
+    "source_url",
+    "exam",
+    "problem_number",
+    "previously_exposed",
+    "original_id",
+    "extension_only",
+    "readiness_note",
+    "figure",
+    "figure_alt",
+    "activity_type",
+    "max_hint_level"
+  ],
+  "observations_authored": [
+    "课程目录包含单元先修标识。",
+    "小节字段区分目标、直觉、原则、识别线索、例题、误解、回想与练习路线。",
+    "示范步骤同时记录操作与理由。",
+    "题目区分来源、用途与难度；部分任务用于诊断或复验。",
+    "首页提供题数组与休息设置，且声明完成记录不等于掌握率。"
+  ],
+  "unverified": [
+    "真实浏览器布局、交互是否正常",
+    "AI反馈质量、学生学习效果",
+    "全站所有课程内容质量"
+  ]
+}
